@@ -1,0 +1,21 @@
+<p>whiskey-list works!</p>
+<div class="row">
+    <div class="col-md-8">
+        <whiskey-list>
+            Loading...
+        </whiskey-list>
+    </div>
+    <div class="col-md-4">Carrito</div>
+</div>
+<table>
+    <tbody>
+        <tr>
+            <!-- <td><img src={{"whiskey.image"}} alt={{"whiskey.name"}}/></td> -->
+            <td><img [src]="whiskey.image" [alt]="whiskey.name"/></td>
+            <td>{{whiskey.name}}</td>
+            <td>{{whiskey.type}}</td>
+            <td>{{whiskey.price}}</td>
+            <td>{{whiskey.stock}}</td>
+        </tr>
+    </tbody>
+</table>

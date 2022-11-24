@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "GeschmackHolz": {
+    "Geschmackholz": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/geschmack-holz",
+            "outputPath": "dist/geschmackholz",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "GeschmackHolz:build:production"
+              "browserTarget": "Geschmackholz:build:production"
             },
             "development": {
-              "browserTarget": "GeschmackHolz:build:development"
+              "browserTarget": "Geschmackholz:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -80,7 +80,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "GeschmackHolz:build"
+            "browserTarget": "Geschmackholz:build"
           }
         },
         "test": {
